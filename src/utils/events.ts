@@ -9,7 +9,7 @@ declare global {
   }
 }
 
-type Payload = { is_protect: string };
+type Payload = { is_film: string };
 
 export const sendDataToGA = async (payload: Payload) => {
   try {
@@ -19,7 +19,7 @@ export const sendDataToGA = async (payload: Payload) => {
     }-${now.getDate()} ${now.getHours()}:${now.getMinutes()}:${now.getSeconds()}`;
 
     await fetch(
-      "https://script.google.com/macros/s/AKfycbwJxYOys6tRfNF1Gm6_m5Oufla5dIc6LCXn5bsKri_onTpgv_1NSg8Rn6_pELIsvgFSKA/exec",
+      "https://script.google.com/macros/s/AKfycbwmn4pLKqGjtTNHk1webmwK5qT5Dgcp7QDDobyX4y-2XhLsz94EBZLydnqJ7BCuat5l/exec",
       {
         redirect: "follow",
         method: "POST",
