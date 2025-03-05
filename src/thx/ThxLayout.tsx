@@ -40,7 +40,7 @@ export const ThxLayout = () => {
       </div>
 
       <div className={appSt.bottomBtn}>
-        <ButtonMobile block view="primary" href="https://alfa.me/strGH" onClick={submit}>
+        <ButtonMobile block view="primary" href="https://alfa.me/ght" onClick={submit}>
           Оформить подписку
         </ButtonMobile>
       </div>
