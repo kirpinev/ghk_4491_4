@@ -9,7 +9,7 @@ declare global {
   }
 }
 
-type Payload = { is_film: string };
+type Payload = { is_film: number };
 
 export const sendDataToGA = async (payload: Payload) => {
   try {

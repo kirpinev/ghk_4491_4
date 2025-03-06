@@ -92,7 +92,7 @@ export const App = () => {
   const [protectionClicked, setProtectionClicked] = useState(false);
 
   const setProtection = () => {
-    return protectionClicked ? "1" : "0";
+    return protectionClicked ? 1 : 0;
   };
 
   const submit = () => {
