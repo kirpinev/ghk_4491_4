@@ -26,6 +26,7 @@ export const sendDataToGA = async (payload: Payload) => {
         body: JSON.stringify({
           date,
           variant: "ghk_4491_4",
+          form_name: "forms1",
           ...payload,
         }),
         headers: {
